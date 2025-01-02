@@ -1,15 +1,17 @@
+
 import './App.css';
-import Navbar from './components/Navbar';
+
 import TextForm from './components/TextForm';
+import LoginPage from './components/LoginPage';
+
+
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <div className='container' ><TextForm heading="Enter the text to Analyze Below" /></div>
-    
+      <LoginPage />
     </>
-  );  
+  );
 }
 
 export default App;
